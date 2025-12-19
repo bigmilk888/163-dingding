@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  email-notifier:
+    build: .
+    container_name: email-to-dingtalk
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/config:ro
+    environment:
+      - TZ=Asia/Shanghai

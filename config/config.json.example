@@ -1,0 +1,7 @@
+{
+    "email_host": "imap.163.com",
+    "email_user": "your_email@163.com",
+    "email_password": "your_authorization_code",
+    "dingtalk_webhook": "https://oapi.dingtalk.com/robot/send?access_token=xxx",
+    "dingtalk_secret": "SECxxx"
+}
